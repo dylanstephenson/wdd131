@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+}
+body {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    background: #D8DBE2;
+}
+header {
+    width: 70%;
+    justify-self: center;
+    grid-column: 1/4;
+    margin: 0;
+    background: #58A4B0;
+    color: #373F51;
+}
+header h1 {
+    text-align: center;
+    padding: 1.2em;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2em;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #373F51;
+    padding: 1em;
+}
+nav a {
+    color: white;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+nav a:hover {
+    transition-duration: .4s;
+    text-decoration: underline;
+    color: #DAA49A;
+}
+main {
+    display: grid;
+    justify-self: center;
+    width: 68%;
+    grid-template-columns: 4fr 3fr;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#aboutMeCard {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: .5em;
+    background: #A9BCD0;
+    color: #373F51;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#aboutMeCard a {
+    color: #373F51;
+    text-decoration: none;
+    font-size: 1.4em;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-self: center;
+    z-index: 99;
+}
+#aboutMeCard a:hover {
+    transition-duration: .4s;
+    color: #c19289;
+}
+
+#aboutMeCard h2 {
+    grid-column: 1/4;
+    height: 4vh;
+    text-align: center;
+    background: #58A4B0;
+    color: #373F51;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: .5em;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#aboutMeCard h3 {
+    border-bottom: 1px solid #373F51;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+#aboutMe {
+    grid-column: 1/3;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .95em;
+}
+
+#aboutMeImg {
+    grid-column: 3/4;
+    height: auto;
+    width: 8em;
+    margin-top: 1.2em;
+    justify-self: center;
+    border: 3px solid #F5F4B9;
+}
+#spotify {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    align-self: center;
+    padding: 1em;
+    padding-top: 2em;
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .95em;
+}
+#oceanSonImg {
+    height: auto;
+    width: 8em;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+#webDevCard {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin: .5em;
+    background: #A9BCD0;
+    color: #373F51;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#webDevCard h2 {
+    text-align: center;
+    background: #58A4B0;
+    height: 4vh;
+    color: #373F51;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: .5em;
+    margin: 0;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#webDevCard a {
+    color: #373F51;
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: .92em;
+}
+#webDevCard a:hover {
+    transition-duration: .4s;
+    color: #a77e77;
+}
+#webDevCard ul {
+    margin-top: 9em;
+    margin-left: 1em;
+}
+#webDevCard li {
+    padding: .7em;
+}
+footer {
+    grid-column: 1/4;
+    width: 65%;
+    justify-self: center;
+    background: #58A4B0;
+    color: #373F51;
+    text-align: center;
+    padding: 2em;
+}
+footer p {
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: .95em;
+    padding: .3em;
+}
