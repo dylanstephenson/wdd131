@@ -44,6 +44,7 @@ nav a:hover {
 main {
     display: grid;
     justify-self: center;
+    max-width: 100vw;
     width: 68%;
     grid-template-columns: 4fr 3fr;
     margin-top: 1em;
