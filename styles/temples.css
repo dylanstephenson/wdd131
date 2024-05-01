@@ -70,7 +70,7 @@ h2 {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 25px;
     margin: 0;
 }
 figure {

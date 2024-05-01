@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1000px)
 {
     #menu {
         display: none;
@@ -29,9 +29,5 @@
   
     main {
         max-width: 1000px;
-    }
-    nav a:hover {
-        background-color: rgb(10, 98, 128);
-        color: white;
     }
 }
