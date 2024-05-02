@@ -77,6 +77,11 @@ figure {
     display: grid;
     justify-self: center;
 }
+
+img {
+    max-width: 100%;
+    width: 600px;
+}
 figcaption {
     justify-self: center;
     font-family: "Crimson Text";
