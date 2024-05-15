@@ -114,6 +114,8 @@ makeCards(temples);
 // make the filter buttons to change what temples are shown depending on the list that's clicked.
 document.querySelector("#home-button").addEventListener('click', function() {
   document.querySelector("#tab-title").textContent = "Home"
+  let container = document.querySelector(".container")
+  container.innerHTML = '';
   makeCards(temples);
 })
 document.querySelector("#old-button").addEventListener('click', () => {
