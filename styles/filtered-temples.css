@@ -53,7 +53,7 @@ nav a:hover {
 }
 main {
     max-width: 500px;
-    margin: 1rem auto;
+    margin: 0 auto;
     padding: 20px;
     z-index: -1;
 
@@ -66,6 +66,7 @@ h2 {
     font-family:"Mate", serif;
     text-align:center;
     padding: 25px;
+    padding-bottom: 45px;
 }
 #tab-title {
     color: rgb(3, 62, 81);
