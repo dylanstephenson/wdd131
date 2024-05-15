@@ -70,6 +70,7 @@ h2 {
 }
 #tab-title {
     color: rgb(3, 62, 81);
+    font-size: 2rem;
 }
 .container {
     display: grid;
