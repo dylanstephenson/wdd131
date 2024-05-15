@@ -1,0 +1,34 @@
+table {
+    margin: 10px auto;
+    border: thin solid lightgrey;
+    border-collapse: collapse;
+    width: 30vw;
+    height: auto;
+}
+caption {
+    padding: 1rem;
+    caption-side: bottom;
+    font-size: smaller;
+}
+tr:first-child th {
+    background-color: black;
+    color: white;
+}
+#black-cell {
+    background-color: black;
+}
+th {
+    font-size: larger;
+}
+th, td {
+    padding: 1rem .5rem;
+    text-align: center;
+    border: 1px solid hsla(0,0%,33%,.3);
+}
+tr:nth-child(2) th{
+    background-color: rgb(84, 84, 84);
+    color: white;
+}
+tr:nth-child(even) td {
+    background-color: lightgrey
+}
