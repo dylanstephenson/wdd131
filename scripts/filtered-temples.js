@@ -70,7 +70,7 @@ const temples = [
       location: "Columbia River, Washington",
       dedicated: "2001, November, 18",
       area: 16880,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/400x400/columbia-river-temple-lds-424634-wallpaper.jpg"
+      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/400x250/columbia-river-washington-temple-1143561-wallpaper.jpg"
 
     },
     {
@@ -103,7 +103,7 @@ function makeCards(templeList) {
       <li><strong><span class="list-title">Size:</span></strong> ${temple.area}</li>
     </ul>
     <figure>
-      <img src="${temple.imageUrl}" alt= "${temple.templeName} Temple" loading="lazy">
+      <img src="${temple.imageUrl}" alt= "${temple.templeName} Temple" loading="lazy" width="500" height="200">
     </figure>
   </div>`
 }
