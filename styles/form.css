@@ -27,6 +27,14 @@ main {
 .pform input {
     padding: 0;
 }
+.pform input:required,
+.pform select:required {
+    border:solid 2px red;
+}
+.pform input:required:valid,
+.pform select:required:valid {
+    border:solid 2px green;
+}
 .rating-label {
     float: left;
     padding: 0 1em;
