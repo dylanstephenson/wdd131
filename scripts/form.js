@@ -37,8 +37,8 @@ let numReviews = GetReviews()
 if (document.title === "Review Page") {
   addEventListener('DOMContentLoaded', function() {
     numReviews++
-    this.localStorage.setItem("numReviews", JSON.stringify(numReviews))
-    reviewsDisplay.textContent = numReviews;
+    DisplayReviews(numReviews);
+    SetReviews();
 })
 }
 
@@ -46,15 +46,13 @@ function GetReviews() {
   return JSON.parse(this.localStorage.getItem("numReviews"))
 }
 
-// function DisplayReviews(reviews) {
-//   reviews++
-//   reviewsDisplay.innerHTML = reviews;
-//   SetReviews()
-// }
+function DisplayReviews(reviews) {
+  reviewsDisplay.innerHTML = reviews;
+}
 
-// function SetReviews() {
-//   localStorage.setItem("numReviews", numReviews);
-// }
+function SetReviews() {
+  this.localStorage.setItem("numReviews", JSON.stringify(numReviews))
+}
 
 function mapNames(array) {
     array.forEach((name) => {
